@@ -1,0 +1,37 @@
+{
+  "name": "bng-integration-credits",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "lint": "standard --fix",
+    "start": "func start",
+    "test": "jest",
+    "test:watch": "jest --coverage=false --onlyChanged --watch",
+    "pretest": "npm run lint"
+  },
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "ajv-formats": "^2.1.1"
+    
+  },
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "supertest": "^6.3.3",
+    "jest-junit": "^16.0.0",
+    "jest-when": "^3.5.2",
+    "standard": "^16.0.3"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "beforeEach",
+      "expect",
+      "test",
+      "afterEach",
+      "jest",
+      "beforeAll",
+      "afterAll",
+      "it"
+    ]
+  }
+}

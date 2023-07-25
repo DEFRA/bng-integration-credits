@@ -1,0 +1,6 @@
+services:
+  bng-integration-credits:
+    build:
+      context: .
+    image: bng-integration-credits
+    container_name: bng-integration-credits
